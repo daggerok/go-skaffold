@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: go-skaffold
+spec:
+  containers:
+    - name: go-skaffold
+      image: daggerok/go-skaffold
+      imagePullPolicy: IfNotPresent
